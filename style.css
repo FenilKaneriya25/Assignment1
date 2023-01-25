@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+    size: 500px;
+  width: 1000px;
+  padding: 8% 0 0;
+  margin: auto;
+  
+}
+.login-page .form .login{
+  margin-top: -31px;
+margin-bottom: 30px;
+
+}
+.form {
+  position: relative;
+  z-index: 1;
+
+  max-width: 500px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: left;
+  /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #ececec;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  background-color: red;
+  width: 25%;
+  border: none;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 17px;
+ 
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #ada6a6;
+  font-size: 18px;
+}
+.form .message a {
+  color: red;
+  text-decoration: none;
+}
+
+
+
+body {
+  background-color: #e2e2e2;
+  
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.heroimage {
+    margin-top: 150px;
+    margin-left: 175px;
+    float: left;
+    border-radius: 50%;
+    width: 700px;
+    background-color: white;
+}
+.imageborder > img{
+   
+    border: 20px solid white;
+    border-radius: 50%;
+   
+}
+.logo {
+    height: 10vh;
+    width: 15vw;
+}
+.detail {
+    font-size: 40px;
+}
+.loginto{
+    font-size: 30px;
+}
+.extra{
+    font-size: 30px;
+    color: #ada6a6;
+}
+.button{
+    float: left;
+    margin-right: 230px;
+    border-radius: 30px;
+}
+.forgot {
+    margin-top: 10px;
+    color: #ada6a6;
+    font-size: 17px;
+}
